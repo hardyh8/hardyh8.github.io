@@ -278,8 +278,6 @@ body {
 }
 /*content*/
 .study .content{
-    width: 60%;
-    float: right;
     padding: 20px;
     padding-top: 10px;
 }
