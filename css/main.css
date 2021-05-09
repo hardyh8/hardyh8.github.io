@@ -5,12 +5,6 @@ body {
     width: 100%;
     scroll-behavior: smooth;
 }
-.navbar{
-    background-color: #fff;
-}
-.cus-height{
-    height: 80px;
-}
 .logo{
     font-size: 32px;
     margin: 0;
@@ -18,7 +12,7 @@ body {
     font-weight: 600;
 }
 .nav-link , .navbar-brand{ 
-    color: #fff; 
+    color: #fff !important;  
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
 }
@@ -26,30 +20,16 @@ body {
     margin-right: 1em;
 }
 .nav-link:hover{
-    color: tomato;
+    color: tomato !important;
 }
 .navbar-collapse{
-   justify-content: flex-end;
-}
-.navbar-toggler{
-    background: #f4f4f4 !important;
+    justify-content: flex-end;
 }
 .active{
-    color:tomato;
+    color:tomato !important;
 }
 .bg-dark{
     background: #343a40 !important;
-}
-.bg-primary{
-    background: #007bff;
-}
-.btn-get{
-    border-radius: 4px;
-    width: 125px;
-    text-align: center;
-}
-.btn-get:hover{
-    background-color: black;
 }
 /* -------------------------------------- header ------------------------------------------- */
 .header{

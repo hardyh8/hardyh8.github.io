@@ -7,18 +7,20 @@
 	<link href="css/textanim.css" rel="stylesheet"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
 <body>
 	
-<nav class="navbar navbar-expand-lg fixed-top cus-height bg-dark">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
 	<div class="container">
 		<a href="image/portfolio-logo.png" class="navbar-brand">
 			<img src="image/portfolio-logo.png" width="55" height="55" >
 		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBar" aria-controls="navbarBar" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarBar">
+		</button>		
+		
+		<div class="collapse navbar-collapse" id="navbarToggle">
 			<ul class="navbar-nav mr-4">
 				<li class="nav-item">
 					<a href="#section-header" class="nav-link active">Home</a>
@@ -40,10 +42,7 @@
 				</li>
 				<li class="nav-item">
 					<a href="#section-contact" class="nav-link">Contact</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link btn-danger btn-get text-white">Get Started</a>
-				</li>
+				</li>				
 			</ul>
 		</div>
 	</div>
@@ -77,12 +76,13 @@
 
 				<h3>Hardik Dhameliya</h3>
 				<p>
-					I am hardik dhameliya. <br>
-					I am Student in Information Technology.<br>
-					Its not about me<br>
-					Its about what i do<br>
+					Profession : Software Engineer <br>
+					Work in Information Technology Field<br>
+					I'm self, fast learner<br>
+					IT makes a great revolution in remote education<br>
+					As information technology restructures the work situation, it abstracts thought from action.<br>
 					Our concern is to complete the projects we started.<br>
-					So Thats what we do.
+					Great miracle await us.
 				</p>
 			</div>
 		</div>
@@ -94,7 +94,7 @@
 	<h1 class="text-center mt-5" style="color: tomato;">Services</h1>
 	<h3 class="text-center mb-5">I can do these all day</h3>
 	<div class="row">
-		<div class="col-lg-4 col-sm-12 col-md-6">
+		<div class="col-lg-4 col-sm-12 col-md-6" data-aos="fade-right">
 			<div class="service-card border p-2">
 				<img src="image/service/web.jpg" height="300" class="img-fluid">
 				<div class="service-data">
@@ -104,7 +104,7 @@
 			</div>
 		</div>
 
-		<div class="col-lg-4 col-sm-12 col-md-6">
+		<div class="col-lg-4 col-sm-12 col-md-6" data-aos="fade-up">
 			<div class="service-card border p-2">
 				<img src="image/service/app.jpg" height="300" class="img-fluid">
 				<div class="service-data">
@@ -114,7 +114,7 @@
 			</div>
 		</div>
 
-		<div class="col-lg-4 col-sm-12 col-md-6 ">
+		<div class="col-lg-4 col-sm-12 col-md-6 " data-aos="fade-left">
 			<div class="service-card border p-2">
 				<img src="image/service/unity.jpeg" height="300" class="img-fluid">
 				<div class="service-data">
@@ -137,23 +137,23 @@
 		</ul>
 		<div class="Android">
 			<div class="row text-center">
-				<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right">
 					
 					<div class="d-inline-block">
 						<div class="phone">
 							<img src="image/portfolio/phone.jpg">
 						</div>
-						<h3>Child Tracking</h3>
+						<a href="#childtraching" style="text-decoration: none;"><h3>Child Tracking</h3></a>
 					</div>
 
 				</div>
-				<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
 		
 					<div class="d-inline-block">
 						<div class="phone phone2">
 							<img src="image/portfolio/phone.jpg">
 						</div>
-						<h3>Chat App</h3>
+						<a href="#childtraching" style="text-decoration: none;"><h3>Chat App</h3></a>
 					</div>
 		
 				</div>
@@ -210,7 +210,7 @@
 	<div class="team text-center">
 		<h1 class="text-center">Team</h1>
 		<div class="row">
-			<div class="col-lg-12 col-sm-12 col-md-12">
+			<div class="col-lg-12 col-sm-12 col-md-12" data-aos="zoom-in-up">
 				<div>
 					<img src="image/my.jpeg" class="img-fluid">
 					<h3 class="text-center mt-3">Devloper Designer Project Manager</h3>
@@ -224,7 +224,7 @@
 	<div class="study text-start">
 		<h1 class="text-center">Study</h1>
 		<div class="row">
-			<div class="col-lg-4 col-sm-12 col-md-6">
+			<div class="col-lg-4 col-sm-12 col-md-6" data-aos="fade-right">
 				<ul class="study-list text-start">
 
 					<li class="study-list-item">
@@ -243,7 +243,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-lg-8 col-sm-12 col-md-6">
+			<div class="col-lg-8 col-sm-12 col-md-6 text-center" data-aos="fade-left" >
 				<div class="content text-start">
 
 					<div class="edu clg">
@@ -269,8 +269,9 @@
 <footer id="section-contact" class="contact">
 	<h1 class="text-center">Contact</h1>
 	<div class="bg-dark p-3">
-		<div class="container text-center">
-				<p class="text-white">Call me at <a href="tel:6353122769">6353122769</a></p>				
+		<div class="container text-center d-inline-flex justify-content-center">
+			<p class="text-danger me-auto ms-5">Call me at <a href="tel:6353122769" style="text-decoration: none; color: aliceblue;">6353122769</a></p>
+			<p class="text-danger ms-auto me-5">Mail me at <a href="mail:hsdhameliya88@gmail.com" style="text-decoration: none; color: aliceblue;">hsdhameliya88@gmail.com</a></p>		
 		</div>
 	</div>
 </footer>
@@ -284,5 +285,21 @@
 <script src="js/textanim.js" type="text/javascript"></script>
 <script src="js/proj_switch.js" type="text/javascript"></script>
 <script src="js/edu_switch.js" type="text/javascript"></script>
+<script>
+	$('.navbar-toggler').on('click',function(){
+		if($('.navbar-collapse').is(':visible')){
+			$('.navbar-collapse').hide();
+		}else{
+			$('.navbar-collapse').show();
+			$('.nav-item').on('click',function(){
+				$('.navbar-collapse').hide();
+			});
+		}
+	});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
